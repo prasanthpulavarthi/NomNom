@@ -31,12 +31,15 @@ const Header = () => {
         </Row>
         <Row className="content align-items-center">
           <Col>
-            <Row className="heading m-0 p-0 justify-content-center">
+            <Row className="heading mt-5 p-0 justify-content-center">
               <Col sm="auto">
                 <img src="./images/Frame.png" alt="bannerIcon" />
               </Col>
               <Col sm="auto px-0">
+                {/* <div> */}
                 NOM-<span className="custom-color-secondary">NOM</span>
+
+                {/* </div> */}
               </Col>
             </Row>
             <Row className="justify-content-center m-0 p-0">
@@ -46,7 +49,7 @@ const Header = () => {
                 </div>
               </Col>
             </Row>
-            <Row className="justify-content-center m-0 p-0">
+            <Row className="justify-content-center mt-3 p-0">
               <Col sm="auto" className="searchBox d-flex py-3 px-4">
                 <div className="location align-self-center">
                   <img

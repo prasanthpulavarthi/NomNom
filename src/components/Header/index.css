@@ -24,9 +24,9 @@ body {
   height: 462px;
 }
 
-.navbar{
+/* .navbar{
     height: 20%;
-}
+} */
 
 .content{
     height: 80%;
@@ -78,7 +78,7 @@ body {
 .search-input{
     border: 0;
     outline: 0;
-    width: 30.2rem;
+    width: 75%;
 }
 
 .mynav{
@@ -109,3 +109,11 @@ body {
 .link:hover{
   background-color: crimson !important;;
 }  
+@media (max-width:576px){
+  .headings {
+    color: white;
+    font-weight: 600;
+     font-size: 28px; 
+    font-size: 4.063rem;
+  }
+}
