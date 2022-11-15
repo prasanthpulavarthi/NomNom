@@ -14,7 +14,7 @@ const ExploreSection=()=> {
   return (
     <>
     <Container>
-    <Row className='explore-section'>
+    <Row className='explore-section mb-5'>
             <h2 className='explore-heading'>Explore options near me</h2>
             <Col>
             
