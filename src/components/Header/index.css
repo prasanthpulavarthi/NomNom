@@ -1,0 +1,111 @@
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap");
+
+:root {
+  --primary: #fff;
+  --secondary: #ee2e2b;
+}
+
+body {
+  color: var(--primary) !important;
+  font-family: "Poppins", sans-serif;
+}
+
+.custom-color-primary {
+  color: #fff;
+}
+
+.custom-color-secondary {
+  color: #ee2e2b;
+}
+
+.banner {
+  background-image: url("../../../public/images/BG.png");
+  background-size: cover;
+  height: 462px;
+}
+
+.navbar{
+    height: 20%;
+}
+
+.content{
+    height: 80%;
+}
+
+.heading {
+  color: white;
+  font-weight: 600;
+   font-size: 65px; 
+  font-size: 4.063rem;
+}
+
+.heading img {
+  vertical-align: baseline !important;
+}
+
+.sub-heading {
+  font-weight: 500;
+  /* font-size: 36px; */
+  font-size: 2.25rem;
+}
+.searchBox {
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.location {
+  border-right: 2px solid rgba(0, 0, 0, 0.6);
+}
+
+.location-icon {
+  height: 1.641rem;
+}
+
+.location-dropdown {
+  border: 0px;
+  outline: 0px;
+  width: 13.75rem;
+  margin: 0 0.5rem 0 0.5rem;
+}
+
+
+
+.search-icon{
+    height: 1.641rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.search-input{
+    border: 0;
+    outline: 0;
+    width: 30.2rem;
+}
+
+.mynav{
+  padding:18px 0px;
+  background: rgba(0, 0, 0, 0.4);
+}
+.brand-name{
+  color: white !important;;
+  font-size: 14px;
+  line-height: 21px;
+  transition:0.6s ease-in-out;
+}
+.brand-name:hover{
+  color:cornflowerblue !important;;
+}
+.logo{
+  width:20px;
+  height:20px;
+}
+
+.link{
+  color: white !important;;
+  font-size: 18px;
+  line-height: 27px;
+  padding:10px 18px!important;
+  transition:0.6s ease-in;
+}
+.link:hover{
+  background-color: crimson !important;;
+}  

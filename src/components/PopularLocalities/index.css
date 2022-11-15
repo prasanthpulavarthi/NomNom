@@ -1,0 +1,48 @@
+
+.popularLocalities{
+    margin:40px 0px;
+}
+.popularLocalities2{
+    margin-bottom:40px;
+}
+.popularHeading{
+    color: black;
+    font-style: normal;
+font-weight: 400;
+font-size: 40px;
+
+}
+.headingHighlight{
+    font-weight: bold;
+}
+.right-icon{
+    color: rgba(40, 40, 40, 0.7);
+    font-size:25px;
+}
+/* .each{
+    border:1px solid black;
+}
+.each p{
+    color:black;
+} */
+.popularBox{
+    background: #FFFFFF;
+    border: 0.8px solid rgba(40, 40, 40, 0.2);
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding:12px 16px;
+    color: #282828;
+
+}
+.popularBox .name{
+    font-size: 18px;
+    color: #282828;
+    margin:0;
+}
+.popularBox .places{
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.015em;
+    color: rgba(40, 40, 40, 0.7);
+    margin:0;
+}

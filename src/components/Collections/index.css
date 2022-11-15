@@ -1,0 +1,19 @@
+.collections{
+    color:#282828;
+}
+.collections-heading p{
+    color:#282828;
+}
+.card-img-overlay{
+    top:75% !important;
+}
+.card-title{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.015em;
+}
+.card-text:last-child{
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.015em;
+}
